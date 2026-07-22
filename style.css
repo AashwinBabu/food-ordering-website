@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EAECF0;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #233D4D;
+    color: #EAECF0;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+}
+#img{
+    margin-left: 60px;
+}
+header h1{
+    font-family: "Montenegrin Gothic One", serif;
+}
+ header ul{
+    display: flex;
+    margin-right: -500px;
+}
+header ul li{
+   list-style: none;
+}
+header ul li a{
+       color: #EAECF0;
+       text-decoration: none;
+       margin-right: 100px;
+       font-family: "Cormorant Garamond", serif;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header ul li a:hover{
+    color: #FE7F2D;
+}
+button{
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+#bu{
+    background-color: #FE7F2D;
+    color: #EAECF0;
+}
+button:hover{
+    border: 0px solid;
+}
+#button{
+    margin-right: 70px;
+}
+#banner img{
+    background-color: #EAECF0;
+}
+#banner{
+    position: relative;
+}
+#content{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+#content h1{
+   font-family: "Montenegrin Gothic One", serif;
+    font-size: 40px;
+}
+#content p{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bolder;
+}
+#start{
+    margin-left: 180px;
+    background-color: red;
+}
+#start:hover{
+    background-color: black;
+    color: #EAECF0;
+    border: 3px solid red;
+}
+#product .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#product img{
+    height: 250px;
+    width: 300px;
+    border-radius: 20px;
+}
+#product .col{
+    border: 2px solid transparent;
+    padding: 60px;
+    margin: 35px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+    line-height: 2;
+}
+#product h1{
+    text-align: center;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin-top: 25px;
+}
+#product p{
+    text-align: center;
+    font-size: x-large;
+}
+#product .col:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    
+}
+#product button{
+    background-color: red;
+    color: black;
+}
+#product button:hover{
+    background-color: black;
+    color: #EAECF0;
+    border: 3px solid red;
+}
+#blank .row{
+    width: 100%;
+    height: 60vh;
+    background-color: #233D4D;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+#blank .col{
+   padding: 60px;
+}
+#blank h1{
+    color: #EAECF0;
+    font-family: "Montenegrin Gothic One", serif;
+}
+#blank p{
+    color: #FFFAFA;
+    font-family: "Cormorant Garamond", serif;
+    line-height: 1.5;
+}
+#why .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#why .col{
+    width: 30%;
+    padding: 10px 10px;
+    margin: 5px 20px;
+    margin-bottom: 60px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+
+}
+#why .col:hover{
+    transform: translate(-10px);
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+#why .choose{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Montenegrin Gothic One", serif;
+}
+#why h1{
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#why p{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+#line{
+    width: 80%;
+   margin: 20px auto;
+   margin-bottom: 60px;
+}
+#food{
+    padding: 10px auto;
+}
+#food .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin: 10px 5px;
+}
+#food .col{ 
+    width: 30%;
+    background-color: aliceblue;
+    margin: 40px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#food .col:hover{
+    transform: translate(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+#food img{
+    width: 200px;
+    height: 180px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#title{
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px auto;
+    font-family: "Montenegrin Gothic One", serif;
+}
+#food button{
+    background-color: #FE7F2D;
+    color: black;
+    margin-bottom: 30px;
+}
+#food button:hover{
+    background-color: black;
+    color: #EAECF0;
+    border: 3px solid red;
+}
+#food h1{
+    line-height: 2;
+     font-family: "Montenegrin Gothic One", serif;
+}
+#food p{
+      font-family: "Yanone Kaffeesatz", sans-serif;
+     font-weight: normal;
+     line-height: 1.5;
+}
+.head{
+    font-family: "Montenegrin Gothic One", serif;
+    font-size: 30px;
+    margin: 40px 0 20px;
+    justify-content: flex-start;
+    margin-left: 80px;
+    text-decoration: underline;
+}
+#quick h1{
+    text-align: center;
+    font-family: "Montenegrin Gothic One", serif;
+}
+#quick .row{
+    display: flex;
+    text-align: justify;
+}
+#quick .col{
+    width: 50%;
+    margin-top: 60px;
+    margin-right: 40px;
+     border-radius: 20px;
+}
+#quick img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#quick h1{
+    line-height: 2;
+}
+#quick p{
+    line-height: 1.5;
+     font-family: "Cormorant Garamond", serif;
+     font-weight: bold;
+     padding: 5px 15px;
+}
+#contact .row{
+    display: flex;
+    justify-content: center;
+    background-color: #233D4D;
+    margin-top: 40px;
+}
+#contact .col{
+    width: 30%;
+     padding: 10px 10px;
+     margin: 10px 30px;
+     background-color: aliceblue;
+     border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#contact .col:hover{
+    transform: translate(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+#contact h2{
+     font-family: "Montenegrin Gothic One", serif;
+}
+#contact p{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: lighter;
+}
+#contact button{
+    display: block;
+    margin: 20px auto;
+    background-color: #FE7F2D;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+#contact button:hover{
+    background-color: #233D4D;
+    color: #EAECF0;
+    border: 3px solid;
+}
+#contact form{
+    line-height: 2;
+      font-family: "Montenegrin Gothic One", serif;   
+}
+.rowf{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+.colf{
+    margin: 10px 10px;
+}
+.colf h3{
+    font-family: "Montenegrin Gothic One", serif;
+    margin-bottom: 10px;
+}
+.colf a{
+    text-decoration: none;
+    line-height: 2;
+    color: #233D4D;
+}
+.colf a:hover{
+color: #e2610c;
+}
+.so{
+    display: flex;
+     justify-content: flex-end;
+     margin-right: 30px;
+}
+.so a{
+    color: #233D4D;
+    padding: 20px;
+    font-size: x-large;
+}
+
